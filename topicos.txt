@@ -1,0 +1,11 @@
+MEMPOS       FIRMWARE               TOPICO
+[0]     httpsUpload             firmware/update/'module'
+[1]     reset                   firmware/reset
+[2]     get firmwareversion     firmware/version
+
+            LIGHT       
+[3]     get light state         'room'/'module'/'light_id'/state
+[4]     set light state         'room'/'module'/'light_id'/set_state
+[5]     change light state      'room'/'module'/'light_id'/change_state
+[6]     get light ID            'room'/'module'/
+[7]     check controler state   'room'/'module'/'light_id'/ready
